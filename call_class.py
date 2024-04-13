@@ -1,4 +1,5 @@
 class Call:
-    def __init__ (self, arrival_time, call_duration):
+    def __init__ (self, arrival_time, duration, complete_time):
         self.arrival_time = arrival_time
-        self.call_duration = call_duration
+        self.duration = duration
+        self.complete_time = complete_time
