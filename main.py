@@ -2,7 +2,7 @@ from simulation import simulate
 from erlang import erlang_c
 import matplotlib.pyplot as plt
 
-num_calls = 1000000 # Number of calls
+num_calls = 1000 # Number of calls
 arrival_rate = 5 # Interarrival rate
 avg_call_duration = 10 # Average call duration
 
