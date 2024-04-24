@@ -5,11 +5,10 @@ import math
 def erlang_c(num_operators, arrival_rate, avg_call_duration):
 
     if num_operators == 1:
-        return 1 - arrival_rate/avg_call_duration
+        return arrival_rate/avg_call_duration
 
     rho = arrival_rate/(avg_call_duration*num_operators)
     r = arrival_rate/avg_call_duration
-    
     sum = 0
     
     for i in range(0, num_operators):
